@@ -83,3 +83,6 @@ h1, h2 {
   text-decoration: underline;
   color: white;
 }
+.nav-links span {
+  color: #14e9b6;
+}
