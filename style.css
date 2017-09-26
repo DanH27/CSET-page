@@ -159,5 +159,29 @@ h1, h2 {
   margin: 15px 30px;
 }
 .flex-row .copy:first-of-type {
-
+	margin-left: 0;
+}
+.sidebar {
+	background: rgba(20,233,183,1);
+	background: -moz-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	display: inline-block;
+	width: 40%;
+	padding: 95px 40px 100px 60px;
+}
+.objectives li {
+	list-style-type: initial;
+	font-size: 15px;
+	margin: 15px 15px 15px 0;
+}
+.objectives {
+	margin-left: 15px;
+}
+.sidebar p.mono {
+	margin: 25px 0 25px;
+}
+.thirds {
+	margin-top: 5px;
 }
