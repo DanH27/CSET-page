@@ -228,7 +228,36 @@ h1, h2 {
 }
 .img-flex img{
 	display: flex;
-	width: 220px;
-	height: 220px;
+	width: 320px;
+	height: 320px;
 	margin: 5px;
+}
+/* footer */
+.gradient-bar {
+	width: 100%;
+	height: 5px;
+	background: rgba(20,233,183,1);
+	background: -moz-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: -webkit-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+	background: linear-gradient(135deg, rgba(20,233,183,1) 0%, rgba(10,216,227,1) 100%);
+}
+footer {
+	width: 90%;
+	margin: 0 auto;
+}
+footer .nav-links {
+	text-align: right;
+}
+footer .nav-link:hover {
+	color: #14e9b6;
+}
+footer nav-link {
+	color: red;
+}
+.footer-copy {
+	text-align: right;
+	margin: 15px 0 10px;
+	font-size: 14px;
+
 }
